@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    
+}
+
+.contex-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #999;
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+#name, #altura, #peso {
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media(max-width: 401px){
+    
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.contex-container {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    background-color: #999;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#name, #altura, #peso {
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 20px;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#imagem {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    margin-top: 50px;
+    
+}
+
+}
